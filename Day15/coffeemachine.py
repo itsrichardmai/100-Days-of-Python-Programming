@@ -137,7 +137,7 @@ class CoffeeMachine:
             elif choice == 'latte':
                 cost = self.LATTE['cost']
             else:
-                cost = self.cappuccino['cost']
+                cost = self.CAPPUCCINO['cost']
             # Process payment
             if self.process_payment(cost):
                 # Make the drink
